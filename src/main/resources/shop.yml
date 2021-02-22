@@ -1,0 +1,610 @@
+shop:
+  5:
+    gui:
+      name: "Magasin du Charpentier"
+      size: 27
+    block:
+      '0':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '1':
+        utility: buying
+        item: 'OAK_LOG'
+        name: 'Achète des buches de Chêne'
+        price: 1.3
+        descriptions:
+          - "&ePrix : {price}/u"
+      '2':
+        utility: buying
+        item: 'BIRCH_LOG'
+        name: 'Achète des buches de Bouleau'
+        price: 1.3
+        descriptions:
+          - "&ePrix : {price}/u"
+      '3':
+        utility: buying
+        item: 'SPRUCE_LOG'
+        name: 'Achète des buches de Sapin'
+        price: 1.5
+        descriptions:
+          - "&ePrix : {price}/u"
+      '4':
+        utility: buying
+        item: 'DARK_OAK_LOG'
+        name: 'Achète des buches de Chêne Noir'
+        price: 1.75
+        descriptions:
+          - "&ePrix : {price}/u"
+      '5':
+        utility: buying
+        item: 'JUNGLE_LOG'
+        name: 'Achète des buches de Jungle'
+        price: 1.5
+        descriptions:
+          - "&ePrix : {price}/u"
+      '6':
+        utility: buying
+        item: 'ACACIA_LOG'
+        name: 'Achète des buches d''acasia'
+        price: 2.0
+        descriptions:
+          - "&ePrix : {price}/u"
+      '8':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '9':
+        utility: multiplicator
+        material: DIAMOND
+        title: "&eMultiplicateur x{multiplicator}"
+        description: {}
+      '17':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '18':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '26':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+  6:
+    gui:
+      name: "Magasin du Pêcheur"
+      size: 27
+    block:
+      '0':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '1':
+        utility: buying
+        item: 'PUFFERFISH'
+        name: 'Achète des poissons globe'
+        price: 5.0
+        descriptions:
+          - "&ePrix : {price}/u"
+      '2':
+        utility: buying
+        item: 'TROPICAL_FISH'
+        name: 'Achète des poissons tropical'
+        price: 4.0
+        descriptions:
+          - "&ePrix : {price}/u"
+      '3':
+        utility: buying
+        item: 'COD'
+        name: 'Achète des Morues'
+        price: 1.75
+        descriptions:
+          - "&ePrix : {price}/u"
+      '4':
+        utility: buying
+        item: 'SALMON'
+        name: 'Achète des saumons'
+        price: 3.0
+        descriptions:
+          - "&ePrix : {price}/u"
+      '8':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '9':
+        utility: multiplicator
+        material: DIAMOND
+        title: "&eMultiplicateur x{multiplicator}"
+        description: {}
+      '17':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '18':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '26':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+  7:
+    gui:
+      name: "Magasin du Boucher"
+      size: 27
+    block:
+      '0':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '1':
+        utility: buying
+        item: 'PORKCHOP'
+        name: 'Achète des côtelletes de porc crue'
+        price: 1.5
+        descriptions:
+          - "&ePrix : {price}/u"
+      '2':
+        utility: buying
+        item: 'BEEF'
+        name: 'Achète du boeuf cru'
+        price: 1.5
+        descriptions:
+          - "&ePrix : {price}/u"
+      '3':
+        utility: buying
+        item: 'CHICKEN'
+        name: 'Achète du poulet cru'
+        price: 2.0
+        descriptions:
+          - "&ePrix : {price}/u"
+      '4':
+        utility: buying
+        item: 'RABBIT'
+        name: 'Achète du lapin cru'
+        price: 4.0
+        descriptions:
+          - "&ePrix : {price}/u"
+      '5':
+        utility: buying
+        item: 'MUTTON'
+        name: 'Achète du mouton cru'
+        price: 1.5
+        descriptions:
+          - "&ePrix : {price}/u"
+      '8':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '9':
+        utility: multiplicator
+        material: DIAMOND
+        title: "&eMultiplicateur x{multiplicator}"
+        description: {}
+      '17':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '18':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '26':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+  8:
+    gui:
+      name: "Magasin du Forgeron"
+      size: 27
+    block:
+      '0':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '1':
+        utility: buying
+        item: 'EMERALD'
+        name: 'Achète des émeraudes'
+        price: 5
+        descriptions:
+          - "&ePrix : {price}/u"
+      '2':
+        utility: buying
+        item: 'DIAMOND'
+        name: 'Achète des diamants'
+        price: 15.0
+        descriptions:
+          - "&ePrix : {price}/u"
+      '3':
+        utility: buying
+        item: 'GOLD_INGOT'
+        name: 'Achète des lingots en or'
+        price: 2.5
+        descriptions:
+          - "&ePrix : {price}/u"
+      '4':
+        utility: buying
+        item: 'IRON_INGOT'
+        name: 'Achète des lingots en fer'
+        price: 1.5
+        descriptions:
+          - "&ePrix : {price}/u"
+      '5':
+        utility: buying
+        item: 'COAL'
+        name: 'Achète du charbon'
+        price: 1.0
+        descriptions:
+          - "&ePrix : {price}/u"
+      '6':
+        utility: buying
+        item: 'LAPIS_LAZULI'
+        name: 'Achète du lapis-lazuli'
+        price: 0.5
+        descriptions:
+          - "&ePrix : {price}/u"
+      '7':
+        utility: buying
+        item: 'QUARTZ'
+        name: 'Achète du quartz'
+        price: 0.75
+        descriptions:
+          - "&ePrix : {price}/u"
+      '8':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '9':
+        utility: multiplicator
+        material: DIAMOND
+        title: "&eMultiplicateur x{multiplicator}"
+        description: {}
+      '17':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '18':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '26':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+  10:
+    gui:
+      name: "Magasin de la Sorcière"
+      size: 27
+    block:
+      '0':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '1':
+        utility: buying
+        item: 'RABBIT_FOOT'
+        name: 'Achète des pattes de lapin'
+        price: 3.0
+        descriptions:
+          - "&ePrix : {price}/u"
+      '2':
+        utility: buying
+        item: 'BLAZE_ROD'
+        name: 'Achète des bâtons de blaze'
+        price: 1.0
+        descriptions:
+          - "&ePrix : {price}/u"
+      '3':
+        utility: buying
+        item: 'NETHER_WART'
+        name: 'Achète des verrues du nether'
+        price: 0.25
+        descriptions:
+          - "&ePrix : {price}/u"
+      '4':
+        utility: buying
+        item: 'REDSTONE'
+        name: 'Achète de la redstone'
+        price: 0.15
+        descriptions:
+          - "&ePrix : {price}/u"
+      '8':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '9':
+        utility: multiplicator
+        material: DIAMOND
+        title: "&eMultiplicateur x{multiplicator}"
+        description: {}
+      '17':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '18':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '26':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+  9:
+    gui:
+      name: "Magasin du Primeur"
+      size: 27
+    block:
+      '0':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '1':
+        utility: buying
+        item: 'WHEAT'
+        name: 'Achète du blé'
+        price: 1.5
+        descriptions:
+          - "&ePrix : {price}/u"
+      '2':
+        utility: buying
+        item: 'CARROT'
+        name: 'Achète des carrotes'
+        price: 1.0
+        descriptions:
+          - "&ePrix : {price}/u"
+      '3':
+        utility: buying
+        item: 'POTATO'
+        name: 'Achète des patates'
+        price: 1.0
+        descriptions:
+          - "&ePrix : {price}/u"
+      '4':
+        utility: buying
+        item: 'CACAO_BEANS'
+        name: 'Achète des fèves de cacao'
+        price: 0.75
+        descriptions:
+          - "&ePrix : {price}/u"
+      '5':
+        utility: buying
+        item: 'BEETROOT'
+        name: 'Achète des betteraves'
+        price: 1.5
+        descriptions:
+          - "&ePrix : {price}/u"
+      '6':
+        utility: buying
+        item: 'SWEET_BERRIES'
+        name: 'Achète des baies'
+        price: 0.25
+        descriptions:
+          - "&ePrix : {price}/u"
+      '7':
+        utility: buying
+        item: 'APPLE'
+        name: 'Achète des pommes'
+        price: 5
+        descriptions:
+          - "&ePrix : {price}/u"
+      '8':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '9':
+        utility: multiplicator
+        material: DIAMOND
+        title: "&eMultiplicateur x{multiplicator}"
+        description: {}
+      '10':
+        utility: buying
+        item: 'MELON_SLICE'
+        name: 'Achète des tranches de pastèque'
+        price: 0.25
+        descriptions:
+          - "&ePrix : {price}/u"
+      '11':
+        utility: buying
+        item: 'BAMBOO'
+        name: 'Achète du bamboo'
+        price: 0.25
+        descriptions:
+          - "&ePrix : {price}/u"
+      '12':
+        utility: buying
+        item: 'SUGAR_CANE'
+        name: 'Achète de la canne à sucre'
+        price: 0.50
+        descriptions:
+          - "&ePrix : {price}/u"
+      '13':
+        utility: buying
+        item: 'PUMPKIN'
+        name: 'Achète des citrouilles'
+        price: 2.0
+        descriptions:
+          - "&ePrix : {price}/u"
+      '14':
+        utility: buying
+        item: 'CACTUS'
+        name: 'Achète des cactus'
+        price: 0.5
+        descriptions:
+          - "&ePrix : {price}/u"
+      '17':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '18':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '26':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+  11:
+    gui:
+      name: "Magasin du Chasseur"
+      size: 27
+    block:
+      '0':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '1':
+        utility: buying
+        item: 'WHITE_WOOL'
+        name: 'Achète de la laine'
+        price: 0.5
+        descriptions:
+          - "&ePrix : {price}/u"
+      '2':
+        utility: buying
+        item: 'PRISMARINE_SHARD'
+        name: 'Achète des éclats de prismarine'
+        price: 1.0
+        descriptions:
+          - "&ePrix : {price}/u"
+      '3':
+        utility: buying
+        item: 'BONE'
+        name: 'Achète des os'
+        price: 0.5
+        descriptions:
+          - "&ePrix : {price}/u"
+      '4':
+        utility: buying
+        item: 'RABBIT_HIDE'
+        name: 'Achète de peau de lapin'
+        price: 3.0
+        descriptions:
+          - "&ePrix : {price}/u"
+      '5':
+        utility: buying
+        item: 'ROTTEN_FLESH'
+        name: 'Achète de la chair putréfiée'
+        price: 0.5
+        descriptions:
+          - "&ePrix : {price}/u"
+      '6':
+        utility: buying
+        item: 'PRISMARINE_CRYSTALs'
+        name: 'Achète des critaux de prismarine'
+        price: 0.70
+        descriptions:
+          - "&ePrix : {price}/u"
+      '7':
+        utility: buying
+        item: 'STRING'
+        name: 'Achète des ficelles'
+        price: 0.5
+        descriptions:
+          - "&ePrix : {price}/u"
+      '8':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '9':
+        utility: multiplicator
+        material: DIAMOND
+        title: "&eMultiplicateur x{multiplicator}"
+        description: {}
+      '10':
+        utility: buying
+        item: 'LEATHER'
+        name: 'Achète du cuir'
+        price: 1.0
+        descriptions:
+          - "&ePrix : {price}/u"
+      '11':
+        utility: buying
+        item: 'FEATHER'
+        name: 'Achète du plumes'
+        price: 0.5
+        descriptions:
+          - "&ePrix : {price}/u"
+      '12':
+        utility: buying
+        item: 'ENDER_PEARL'
+        name: 'Achète des pearls de l''ender'
+        price: 0.50
+        descriptions:
+          - "&ePrix : {price}/u"
+      '13':
+        utility: buying
+        item: 'SPIDER_EYE'
+        name: 'Achète des Oeils d''araignée'
+        price: 0.50
+        descriptions:
+          - "&ePrix : {price}/u"
+      '14':
+        utility: buying
+        item: 'GUNPOWDER'
+        name: 'Achète de la poudre à canon'
+        price: 1.0
+        descriptions:
+          - "&ePrix : {price}/u"
+      '15':
+        utility: buying
+        item: 'SCUTE'
+        name: 'Achète des écailles de tortue'
+        price: 1.0
+        descriptions:
+          - "&ePrix : {price}/u"
+      '16':
+        utility: buying
+        item: 'SLIME_BALL'
+        name: 'Achète des slimes ball'
+        price: 1.0
+        descriptions:
+          - "&ePrix : {price}/u"
+      '17':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '18':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}
+      '26':
+        utility: barrier
+        material: MAGENTA_STAINED_GLASS_PANE
+        title: "&cBarrière"
+        descriptions: {}

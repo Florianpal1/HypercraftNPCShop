@@ -1,0 +1,13 @@
+fr\florianpal\hypercraftnpcshop\objects\Trader.class
+fr\florianpal\hypercraftnpcshop\languages\MessageKeys.class
+fr\florianpal\hypercraftnpcshop\managers\CommandManager.class
+fr\florianpal\hypercraftnpcshop\gui\ListGui.class
+fr\florianpal\hypercraftnpcshop\objects\Multiplicator.class
+fr\florianpal\hypercraftnpcshop\configurations\ShopCommandConfig.class
+fr\florianpal\hypercraftnpcshop\managers\ConfigurationManager.class
+fr\florianpal\hypercraftnpcshop\objects\Shop.class
+fr\florianpal\hypercraftnpcshop\managers\VaultIntegrationManager.class
+fr\florianpal\hypercraftnpcshop\HypercraftNPCShop.class
+fr\florianpal\hypercraftnpcshop\objects\Item.class
+fr\florianpal\hypercraftnpcshop\commands\NPCShopCommand.class
+fr\florianpal\hypercraftnpcshop\objects\Barrier.class

@@ -1,0 +1,6 @@
+name: HypercraftNPCShop
+main: fr.florianpal.hypercraftnpcshop.HypercraftNPCShop
+author: florianpal
+depend: [Citizens]
+version: 1.0
+api-version: 1.15
